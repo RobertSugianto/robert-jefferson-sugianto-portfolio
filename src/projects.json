@@ -16,5 +16,23 @@
         "Image": "/proj-img/cateringz-preview.png",
         "desc": "This repository contains my individual work on my college Human and Computer Interaction lab project. This project was about making a website for a large scale food vendor for wedding, birthday, and any other large events. This website was created using vanilla HTML, CSS, and Javascript.",
         "link": "https://cateringz-human-and-computer-interaction-8jrglkay2.vercel.app/" 
+    },
+    {
+        "Title": "Pawscan",
+        "Image": "/proj-img/pawscan-preview.jpg",
+        "desc": "This website was our final project on Software Engineering course. We create this website to predict dog breed around the world. This website can be used by downloading to local. This website runs on vanilla HTML, CSS, and JS as the front-end, Golang as the backend, and python as the prediction server.",
+        "link": "https://github.com/RobertSugianto/pawscan" 
+    },
+    {
+        "Title": "Snakeid",
+        "Image": "/proj-img/snakeid-preview.png",
+        "desc": "This website is our final project on Artificial Intelligence course. This website of course focused on the AI and have minimalized front-end. Our AI uses pretrained model named vision transformer (VIT base patch 16) and is used to predict snake species.",
+        "link": "https://github.com/RobertSugianto/snakeid" 
+    },
+    {
+        "Title": "Comparison Study: CNN-LSTM or LSTM Transformer for Stock Market Prediction",
+        "Image": "/proj-img/paper-preview.png",
+        "desc": "This research was motivated by the growing interest in stock trading and the lack of studies comparing AI models for market prediction. We used 3 Indonesian stock datasets to compare CNN-LSTM and LSTM-Transformer. From this research we concluded that CNN-LSTM is better than LSTM-Transformer.",
+        "link": "https://drive.google.com/file/d/1SCizrfIDhdXBuvAu0owtclAwYGrK385n/view?usp=sharing" 
     }
 ]
