@@ -61,6 +61,10 @@
     font-size: 1rem;
 }
 
+.project-summary a {
+    text-decoration: none;
+}
+
 .project-summary .see-more {
     display: flex;
     justify-content: center;

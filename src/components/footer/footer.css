@@ -3,14 +3,26 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: 3vh;
     padding: 5vh 4vw;
-    gap: 2vh;
     background-color: #152f58;
     font-family: var(--default-body-font);
 }
 
-footer input{
+footer h3 {
+    font-family: var(--default-title-font);
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+form input{
     width: 40vw;
     height: 5vh;
     padding: 2vh 1vw;
@@ -19,7 +31,7 @@ footer input{
     font-family: var(--default-body-font);
 }
 
-footer textarea {
+form textarea {
     width: 40vw;
     max-width: 40vw;
     min-width: 40vw;
@@ -32,7 +44,7 @@ footer textarea {
     font-family: var(--default-body-font);
 }
 
-footer button {
+form button {
     padding: 1vh 3vw;
     font-size: 1rem;
     border-radius: 0.2vw;
@@ -40,6 +52,6 @@ footer button {
     border: none;
 }
 
-footer button:hover {
+form button:hover {
     background-color: #0df6b8;
 }

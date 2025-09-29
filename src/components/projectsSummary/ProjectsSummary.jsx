@@ -1,4 +1,5 @@
 import "./projectSummary.css"
+import { Link } from "react-router-dom";
 import data from '../../projects.json'
 
 function ProjectSummary() {
@@ -16,11 +17,9 @@ function ProjectSummary() {
                     </div>
                 ))}
             </div>
-            <button
-                className="see-more"
-            >
-                See More
-            </button>
+            <Link to="/projects">
+                <button className="see-more">See More</button>
+            </Link>
         </div>
     );
 }

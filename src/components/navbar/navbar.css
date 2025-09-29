@@ -39,6 +39,7 @@
   color: #152f58;
   font-family: var(--default-body-font);
   position: relative;
+  cursor: pointer;
 }
 
 .navbar-menu a::after {

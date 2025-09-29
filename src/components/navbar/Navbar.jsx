@@ -1,6 +1,20 @@
 import './navbar.css'
+import { useLocation } from "react-router-dom";
+
 
 function Navbar() {
+    const location = useLocation();
+
+    const handleScroll = (id) => {
+        if (location.pathname === "/") {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+        } else {
+            window.location.href = `/#${id}`;
+        }
+    };
 
     return(
         <div className="navbar">
@@ -12,9 +26,9 @@ function Navbar() {
             </div>
 
             <nav className="navbar-menu">
-                <a href="#hero">Home</a>
-                <a href="#about">About me</a>
-                <a href="#project-summary">My Projects</a>
+                <a onClick={() => {handleScroll("hero")}}>Home</a>
+                <a onClick={() => {handleScroll("about")}}>About me</a>
+                <a onClick={() => {handleScroll("project-summary")}}>My Projects</a>
             </nav>
         </div>
     );
