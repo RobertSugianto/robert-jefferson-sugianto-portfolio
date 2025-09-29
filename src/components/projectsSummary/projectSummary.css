@@ -1,0 +1,80 @@
+.project-summary {
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.project-summary .top-tree-project {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4vw;
+    padding-bottom: 3vh;
+    cursor: pointer;
+}
+
+.top-tree-project .project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card img {
+    width: 25vw;
+    height: auto;
+}
+
+.project-card .card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 1.5vw;
+    width: 25vw;
+    height: 20%;
+    font-family: var(--default-body-font);
+    font-size: 1rem;
+    background-color: rgba(19, 227, 172, 0.8);
+    color: #152f58;
+
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+
+    transition: 0.4s ease;
+}
+
+.card-desc p {
+    font-size: 0;
+    opacity: 0;
+    transition: font-size 0.1s ease, opacity 0.5s ease;
+}
+
+.project-card:hover .card-desc {
+    height: 100%;
+}
+
+.project-card:hover p {
+    opacity: 1;
+    font-size: 1rem;
+}
+
+.project-summary .see-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 2vw;
+    background-color: #a50010;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.5vw;
+    transition: 0.4s ease;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.project-summary .see-more:hover {
+    background-color: #d80016;
+}

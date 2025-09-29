@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5vh 4vw;
+    gap: 2vh;
+    background-color: #152f58;
+    font-family: var(--default-body-font);
+}
+
+footer input{
+    width: 40vw;
+    height: 5vh;
+    padding: 2vh 1vw;
+    border-radius: 0.4vw;
+    font-size: 1rem;
+    font-family: var(--default-body-font);
+}
+
+footer textarea {
+    width: 40vw;
+    max-width: 40vw;
+    min-width: 40vw;
+    height: 30vh;
+    min-height: 30vh;
+
+    padding: 2vh 1vw;
+    border-radius: 0.4vw;
+    font-size: 1rem;
+    font-family: var(--default-body-font);
+}
+
+footer button {
+    padding: 1vh 3vw;
+    font-size: 1rem;
+    border-radius: 0.2vw;
+    background-color: #13e3ab;
+    border: none;
+}
+
+footer button:hover {
+    background-color: #0df6b8;
+}

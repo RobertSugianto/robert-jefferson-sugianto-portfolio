@@ -1,0 +1,114 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero .simple-summary {
+    display: flex;
+    padding-bottom: 3vh;
+    height: fit-content;
+}
+
+.simple-summary .summary-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-image .me-informal {
+    width: 50%;
+}
+
+.simple-summary .summary-text {
+    padding: 0 2.5%;
+    width: 55vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--default-body-font);
+    gap: 1vh;
+}
+
+.summary-text > h1 {
+    font-size: 4rem;
+}
+
+.summary-text > p:last-of-type {
+    font-size: 1.2rem;
+}
+
+.summary-text span {
+    font-family: var(--default-title-font);
+    color: #285073;
+}
+
+.summary-text .contacts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1vh 0;
+    gap: 2vh 1vw;
+}
+
+.contacts .contact-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 1.5vh 2vw;
+    gap: 1.2vw;
+    width: 16vw;
+    font-family: var(--default-body-font);
+
+    background-color: #a28c6bd4;
+    color: #FFFFFF;
+    border-radius: 0.5vw;
+    cursor: pointer;
+
+    transition: 0.4s ease;
+}
+
+.contacts .contact-btn:hover {
+    background-color: #a28c6b;
+}
+
+.contact-btn img {
+    width: 2.5vw;
+}
+
+.contact-btn p {
+    font-size: 0.9rem;
+}
+
+.hero .learn-more {
+    padding: 1vh 1vw;
+    border: 0;
+    border-radius: 0.3vw;
+    background-color: rgba(165, 0, 16, 0.782);
+    color: #13e3ab;
+    font-size: 1rem;
+    font-family: var(--default-body-font);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0.5vw;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.learn-more span {
+    font-size: 1.5rem;
+}
+
+.hero .learn-more:hover {
+    font-size: 1.1rem;
+    padding: 1.2vh 1vw;
+    background-color: rgb(165, 0, 16);
+}
+
+.hero .learn-more:hover span {
+    font-size: 1.6rem;
+}

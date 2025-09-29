@@ -1,0 +1,20 @@
+[
+    {
+        "Title": "IMDB Analysis",
+        "Image": "/proj-img/imdb-analysis-preview.png",
+        "desc": "This project was my personal project on analyzing and IMDB data. I use python notebook for data cleaning and tableau for data visualization. I do descriptive data analysis to understand the correlation between gross and each other attributes.",
+        "link": "https://github.com/RobertSugianto/imbd-analysis" 
+    },
+    {
+        "Title": "Shopping Trend Analysis",
+        "Image": "/proj-img/shopping-trend-preview.png",
+        "desc": "This study was conducted to understand the buyer pattern based on gender, product category, subscription status, states, and payment method, identify customer preference for every market segmentation, and support decision making of a business to be more accurate and based of data.",
+        "link": "https://github.com/RobertSugianto/Shopping-Trend-Analysis-US" 
+    },
+    {
+        "Title": "Cateringz",
+        "Image": "/proj-img/cateringz-preview.png",
+        "desc": "This repository contains my individual work on my college Human and Computer Interaction lab project. This project was about making a website for a large scale food vendor for wedding, birthday, and any other large events. This website was created using vanilla HTML, CSS, and Javascript.",
+        "link": "https://cateringz-human-and-computer-interaction-8jrglkay2.vercel.app/" 
+    }
+]
