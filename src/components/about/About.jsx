@@ -48,6 +48,7 @@ function About() {
             <div className="formal-image">
                 <img src={meFormal} alt="formal-image" />
             </div>
+            <h3 className="about-title">About me</h3>
         </div>
     );
 }

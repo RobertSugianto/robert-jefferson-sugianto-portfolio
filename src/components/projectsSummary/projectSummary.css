@@ -46,6 +46,10 @@
     transition: 0.4s ease;
 }
 
+.card-desc h4 {
+    font-size: 1rem;
+}
+
 .card-desc p {
     font-size: 0;
     opacity: 0;
@@ -81,4 +85,58 @@
 
 .project-summary .see-more:hover {
     background-color: #d80016;
+}
+
+@media screen and (max-width: 768px) {
+    .project-summary .top-tree-project {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project-card img {
+        width: 50vw;
+    }
+
+    .project-card .card-desc {
+        width: 50vw;
+    }
+
+    .card-desc h4 {
+        font-size: 1.5rem;
+    }
+
+    .project-card:hover p {
+        font-size: 1.5rem;
+    }
+
+    .project-summary .see-more {
+        padding: 2vh 3vw;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425.5px) {
+    .project-card img {
+        width: 60vw;
+    }
+
+    .project-card .card-desc {
+        width: 60vw;
+    }
+
+    .card-desc h4 {
+        font-size: 2.5rem;
+    }
+
+    .project-card:hover p {
+        font-size: 2.5rem;
+    }
+
+    .project-summary .see-more {
+        padding: 2vh 3vw;
+        font-size: 3rem;
+    }
 }

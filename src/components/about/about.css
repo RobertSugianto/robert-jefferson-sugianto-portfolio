@@ -3,6 +3,10 @@
     padding: 6vh 2.5%;
 }
 
+.about .about-title {
+    font-size: 0;
+}
+
 .about .info {
     width: 57.5%;
     display: flex;
@@ -11,7 +15,7 @@
 }
 
 .info .info-nav {
-    height: 10%;
+    padding-bottom: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,4 +181,119 @@
 .skill-cards p {
     width: 100%;
     font-family: var(--default-body-font);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about .about-title {
+        font-family: var(--default-title-font);
+        font-size: 3rem;
+        color: #152f58;
+        padding: 0.5vh 0;
+        margin-bottom: 2vh;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .about .about-title::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 16vw;
+        background-color: #a50010;
+        height: 0.3vh;
+    }
+
+    .about .info {
+        width: 70%;
+    }
+
+    .info-nav .info-nav-child {
+        padding: 1vh 3vw;
+    }
+
+    .info-nav-child p {
+        font-size: 1.2rem;
+    }
+
+    .info h3 {
+        font-size: 0;
+    }
+
+    .info h3::after {
+        width: 0;
+    }
+
+    /* Inside Description.jsx */
+    .info-desc {
+        font-size: 1.2rem;
+    }
+
+    /* Inside Skills.jsx */
+    .skill-cards p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 425.5px) {
+    .about .info {
+        width: 70%;
+    }
+
+    .info-nav .info-nav-child {
+        padding: 1vh 3vw;
+    }
+
+    .info-nav-child p {
+        font-size: 2rem;
+    }
+
+    .info h3 {
+        font-size: 0;
+    }
+
+    .info h3::after {
+        width: 0;
+    }
+
+    /* Inside Description.jsx */
+    .info-desc {
+        font-size: 2rem;
+    }
+    
+    /* Inside Personal.jsx */
+    .info-personal {
+        gap: 1vh 1vw;
+        padding-left: 0;
+    }
+    .personal-detail h4 {
+        font-size: 3rem;
+    }
+
+    .personal-detail p {
+        font-size: 3rem;
+    }
+
+    /* Inside Skills.jsx */
+    .info-skills .skill-cards {
+        width: 17.5vw;
+        gap: 2vw;
+    }
+
+    .skill-cards img {
+        width: 2.7vw;
+    }
+
+    .skill-cards p {
+        font-size: 2rem;
+    }
 }

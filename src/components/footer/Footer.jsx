@@ -61,7 +61,7 @@ function Footer() {
             required
             onInput={(e) => e.target.setCustomValidity("")}
             />
-            <textarea name="message" placeholder="Your message" required></textarea>
+            <textarea name="message" placeholder="Your message" id='message-box' required></textarea>
             <button type="submit" id="send">Send</button>
         </form>
     </footer>
