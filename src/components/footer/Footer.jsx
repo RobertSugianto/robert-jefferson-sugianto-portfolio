@@ -46,9 +46,10 @@ function Footer() {
   return (
     <footer id="footer">
         <h3>Contact me</h3>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='form-hire'>
             <input
             type="text"
+            className='text-input'
             name="full-name"
             placeholder="Full Name"
             required
@@ -56,13 +57,14 @@ function Footer() {
             />
             <input
             type="email"
+            className='text-input'
             name="email"
             placeholder="Email"
             required
             onInput={(e) => e.target.setCustomValidity("")}
             />
-            <textarea name="message" placeholder="Your message" id='message-box' required></textarea>
-            <button type="submit" id="send">Send</button>
+            <textarea name="message" className='message-input' placeholder="Your message" id='message-box' required></textarea>
+            <button type="submit" id="send" className='send-btn'>Send</button>
         </form>
     </footer>
   );
