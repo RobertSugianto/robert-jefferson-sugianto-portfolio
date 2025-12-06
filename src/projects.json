@@ -33,6 +33,6 @@
         "Title": "Comparison Study: CNN-LSTM or LSTM Transformer for Stock Market Prediction",
         "Image": "/proj-img/paper-preview.png",
         "desc": "This research was motivated by the growing interest in stock trading and the lack of studies comparing AI models for market prediction. We used 3 Indonesian stock datasets to compare CNN-LSTM and LSTM-Transformer. From this research we concluded that CNN-LSTM is better than LSTM-Transformer.",
-        "link": "https://drive.google.com/file/d/1SCizrfIDhdXBuvAu0owtclAwYGrK385n/view?usp=sharing" 
+        "link": "https://doi.org/10.1109/AiDAS67696.2025.11213559" 
     }
 ]
