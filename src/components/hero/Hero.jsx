@@ -37,7 +37,7 @@ function Hero() {
                             <img src={githubIcon} alt="github-icon" />
                             <p>Github</p>
                         </button>
-                        <button className="contact-btn" onClick={() => {window.open("https://drive.google.com/file/d/1AQbXfSyvL-TpGFLTVsozYEhDEHX7-9Ct/view?usp=sharing", "_blank")}}>
+                        <button className="contact-btn" onClick={() => {window.open("https://drive.google.com/file/d/1okqhofQYRrh_teUfRa579NIuYTlpTiFN/view?usp=drivesdk", "_blank")}}>
                             <img src={downloadIcon} alt="download-icon" />
                             <p>Download CV</p>
                         </button>
